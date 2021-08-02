@@ -1,0 +1,21 @@
+REQUIREMENTS:
+php version 7.x
+MySQL version 5.7
+NodeJS version 15.7
+XAMPP server version 7.3
+
+
+STEPS:
+1. git clone 
+2. cd BlueStacks-Assignment
+3. npm install
+4. node server 
+5. sudo service mysqld start 
+6. login into mysql and execute "source path_to_mysql-41838-db_mysql-41838.sql;" (without quotes)
+7. copy frontend folder to /opt/lampp/htdocs
+8. sudo /opt/lampp/lampp startapache
+9. go to localhost/frontend for Front end 
+10. go to localhost:3000/video_list for saving trending video list into DB
+11. go to localhost:3000/fetch_video/:video_id for downloading video into DB
+12. go to localhost:3000/all for getting the list of available list of videos
+13. go to localhost:3000/video/:video_id for getting all details of video and it's channel
