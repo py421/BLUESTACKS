@@ -23,4 +23,4 @@ STEPS:
 
 Hosted Website Link:
 FrontEnd - https://frontendapp142.herokuapp.com
-BackEnd - https://backendapp142.herokuapp.com/
+BackEnd - https://backendapp142.herokuapp.com
